@@ -20,70 +20,70 @@ type PlantCutting = {
 const plantCuttings: PlantCutting[] = [
   {
     id: 1,
-    name: 'Монстера деликатесная',
-    price: 890,
-    category: 'decorative',
+    name: 'Петуния Грандифлора',
+    price: 350,
+    category: 'petunia',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/5e9f36f0-c30d-4b1c-9990-5c0fef20be2e.jpg',
-    description: 'Неприхотливое тропическое растение с эффектными резными листьями',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg',
+    description: 'Крупные яркие цветы, идеальны для кашпо и клумб',
     careLevel: 'easy'
   },
   {
     id: 2,
-    name: 'Потос золотистый',
-    price: 450,
-    category: 'decorative',
+    name: 'Петуния Каскадная',
+    price: 280,
+    category: 'petunia',
     difficulty: 'Очень легко',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/5e9f36f0-c30d-4b1c-9990-5c0fef20be2e.jpg',
-    description: 'Идеален для начинающих, быстро растет и очищает воздух',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg',
+    description: 'Обильное цветение, прекрасно ампельная форма',
     careLevel: 'easy'
   },
   {
     id: 3,
-    name: 'Эхеверия элеганс',
-    price: 350,
-    category: 'succulent',
-    difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/7704209c-d362-4e34-818a-fa06033fcedb.jpg',
-    description: 'Суккулент с нежными голубоватыми листьями в форме розетки',
-    careLevel: 'easy'
-  },
-  {
-    id: 4,
-    name: 'Крассула овата',
-    price: 550,
-    category: 'succulent',
-    difficulty: 'Очень легко',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/7704209c-d362-4e34-818a-fa06033fcedb.jpg',
-    description: 'Денежное дерево - классика для дома и офиса',
-    careLevel: 'easy'
-  },
-  {
-    id: 5,
-    name: 'Филодендрон Пинк Принцесс',
-    price: 2890,
-    category: 'rare',
+    name: 'Роза Чайно-гибридная',
+    price: 890,
+    category: 'rose',
     difficulty: 'Средне',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/648c4ebd-96a7-4456-be61-3e5c5fe10abb.jpg',
-    description: 'Редкая вариегатная форма с розовыми пятнами на листьях',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/036400a6-3a42-4097-8e0f-65e628d4a416.jpg',
+    description: 'Классическая садовая роза с крупными бутонами',
     careLevel: 'medium'
   },
   {
-    id: 6,
-    name: 'Монстера вариегатная',
-    price: 4500,
-    category: 'rare',
+    id: 4,
+    name: 'Роза Флорибунда',
+    price: 790,
+    category: 'rose',
+    difficulty: 'Средне',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/036400a6-3a42-4097-8e0f-65e628d4a416.jpg',
+    description: 'Обильное цветение кистями, устойчива к болезням',
+    careLevel: 'medium'
+  },
+  {
+    id: 5,
+    name: 'Роза Остина премиум',
+    price: 1590,
+    category: 'premium',
     difficulty: 'Сложно',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/648c4ebd-96a7-4456-be61-3e5c5fe10abb.jpg',
-    description: 'Коллекционная форма с белыми пятнами, требует внимания',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/3a03f1d8-83a1-4f05-9cfc-fc8e8475cd4a.jpg',
+    description: 'Английская роза с пышными махровыми цветами',
     careLevel: 'hard'
+  },
+  {
+    id: 6,
+    name: 'Петуния махровая микс',
+    price: 420,
+    category: 'premium',
+    difficulty: 'Легко',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg',
+    description: 'Редкая махровая форма с пышными цветами',
+    careLevel: 'easy'
   }
 ];
 
 const reviews = [
-  { name: 'Анна К.', text: 'Черенки пришли в отличном состояии! Уже появились новые корешки. Спасибо!', rating: 5 },
-  { name: 'Михаил С.', text: 'Качество на высоте, упаковка надежная. Монстера прижилась за неделю.', rating: 5 },
-  { name: 'Елена Д.', text: 'Заказываю уже третий раз. Все растения здоровые и крепкие!', rating: 5 }
+  { name: 'Светлана М.', text: 'Петунии просто шикарные! Зацвели через 2 недели, балкон превратился в сад!', rating: 5 },
+  { name: 'Дмитрий В.', text: 'Розы прижились отлично. Черенки крепкие, корневая система здоровая. Рекомендую!', rating: 5 },
+  { name: 'Ольга К.', text: 'Заказала петунии каскадные - результат превзошел ожидания. Цветут без остановки!', rating: 5 }
 ];
 
 export default function Index() {
@@ -105,8 +105,8 @@ export default function Index() {
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Icon name="Sprout" size={32} className="text-primary" />
-            <h1 className="text-2xl font-bold text-primary">GreenCuttings</h1>
+            <Icon name="Flower" size={32} className="text-primary" />
+            <h1 className="text-2xl font-bold text-primary">FloraСад</h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#catalog" className="text-foreground hover:text-primary transition-colors">Каталог</a>
@@ -126,12 +126,12 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <Badge className="mb-4 bg-primary/20 text-primary border-primary/30">Свежие черенки каждую неделю</Badge>
+              <Badge className="mb-4 bg-primary/20 text-primary border-primary/30">Свежие черенки петуний и роз</Badge>
               <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Начни свой <span className="text-primary">зелёный</span> оазис
+                Роскошный <span className="text-accent">цветущий</span> сад
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Качественные черенки редких и популярных растений с гарантией приживаемости
+                Качественные черенки петуний и роз с гарантией цветения весь сезон
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="text-lg">
@@ -158,8 +158,8 @@ export default function Index() {
               <div className="absolute -top-4 -right-4 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
               <div className="absolute -bottom-4 -left-4 w-72 h-72 bg-secondary/20 rounded-full blur-3xl"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/5e9f36f0-c30d-4b1c-9990-5c0fef20be2e.jpg" 
-                alt="Черенки растений" 
+                src="https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg" 
+                alt="Петунии и розы" 
                 className="relative rounded-2xl shadow-2xl w-full object-cover"
               />
             </div>
@@ -171,8 +171,8 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-secondary/20 text-secondary-foreground border-secondary/30">Каталог</Badge>
-            <h3 className="text-4xl font-bold mb-4">Наши черенки</h3>
-            <p className="text-xl text-muted-foreground">Найдите идеальное растение для вашего дома</p>
+            <h3 className="text-4xl font-bold mb-4">Наши цветы</h3>
+            <p className="text-xl text-muted-foreground">Петунии для балконов и розы для сада</p>
           </div>
 
           <Tabs value={selectedCategory} onValueChange={setSelectedCategory} className="mb-8">
@@ -181,17 +181,17 @@ export default function Index() {
                 <Icon name="LayoutGrid" size={18} />
                 Все
               </TabsTrigger>
-              <TabsTrigger value="decorative" className="flex items-center gap-2">
-                <Icon name="Leaf" size={18} />
-                Декоративные
+              <TabsTrigger value="petunia" className="flex items-center gap-2">
+                <Icon name="Flower" size={18} />
+                Петунии
               </TabsTrigger>
-              <TabsTrigger value="succulent" className="flex items-center gap-2">
-                <Icon name="Flower2" size={18} />
-                Суккуленты
+              <TabsTrigger value="rose" className="flex items-center gap-2">
+                <Icon name="Rose" size={18} />
+                Розы
               </TabsTrigger>
-              <TabsTrigger value="rare" className="flex items-center gap-2">
+              <TabsTrigger value="premium" className="flex items-center gap-2">
                 <Icon name="Sparkles" size={18} />
-                Редкие
+                Премиум
               </TabsTrigger>
             </TabsList>
           </Tabs>
@@ -242,8 +242,8 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-primary/20 text-primary border-primary/30">Советы</Badge>
-            <h3 className="text-4xl font-bold mb-4">Как ухаживать за черенками</h3>
-            <p className="text-xl text-muted-foreground">Простые инструкции для успешного укоренения</p>
+            <h3 className="text-4xl font-bold mb-4">Как ухаживать за петуниями и розами</h3>
+            <p className="text-xl text-muted-foreground">Простые советы для пышного цветения</p>
           </div>
 
           <div className="max-w-3xl mx-auto">
@@ -254,13 +254,12 @@ export default function Index() {
                     <div className="p-2 bg-primary/10 rounded-full">
                       <Icon name="Droplets" size={24} className="text-primary" />
                     </div>
-                    <span className="text-lg font-semibold">Полив и влажность</span>
+                    <span className="text-lg font-semibold">Полив</span>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Поддерживайте субстрат умеренно влажным, но не мокрым. Поливайте черенки 2-3 раза в неделю, 
-                  проверяя верхний слой почвы. Используйте отстоянную воду комнатной температуры. 
-                  Опрыскивайте листья для повышения влажности.
+                  Петунии: поливайте обильно утром и вечером в жару. Розы: глубокий полив 2 раза в неделю, 
+                  избегая попадания воды на листья. Используйте теплую отстоянную воду под корень.
                 </AccordionContent>
               </AccordionItem>
 
@@ -274,9 +273,8 @@ export default function Index() {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Размещайте черенки в месте с ярким рассеянным светом. Избегайте прямых солнечных лучей, 
-                  особенно в первые недели. Идеально подходит восточное или западное окно. 
-                  Зимой можно использовать фитолампу.
+                  Петунии любят яркое солнце - минимум 6 часов в день. Розы предпочитают утреннее солнце 
+                  и полутень после обеда. Для пышного цветения обеспечьте максимум света.
                 </AccordionContent>
               </AccordionItem>
 
@@ -286,12 +284,12 @@ export default function Index() {
                     <div className="p-2 bg-accent/10 rounded-full">
                       <Icon name="Thermometer" size={24} className="text-accent" />
                     </div>
-                    <span className="text-lg font-semibold">Температура</span>
+                    <span className="text-lg font-semibold">Подкормка</span>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Оптимальная температура для укоренения 20-25°C. Избегайте сквозняков и резких перепадов температуры. 
-                  Не размещайте растения рядом с батареями отопления или кондиционерами.
+                  Петунии нуждаются в еженедельной подкормке комплексным удобрением с высоким содержанием фосфора. 
+                  Розы подкармливайте каждые 2 недели органо-минеральным удобрением для обильного цветения.
                 </AccordionContent>
               </AccordionItem>
 
@@ -301,12 +299,12 @@ export default function Index() {
                     <div className="p-2 bg-primary/10 rounded-full">
                       <Icon name="Loader" size={24} className="text-primary" />
                     </div>
-                    <span className="text-lg font-semibold">Субстрат и пересадка</span>
+                    <span className="text-lg font-semibold">Обрезка и формирование</span>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Используйте легкий, воздухопроницаемый субстрат. Для декоративных растений подойдет смесь торфа и перлита. 
-                  Для суккулентов добавьте песок. Пересаживайте в постоянный горшок после появления 2-3 новых листьев.
+                  Петунии прищипывайте для кустистости, удаляйте увядшие цветы. Розы обрезайте отцветшие бутоны 
+                  над 5-м листом для повторного цветения. Санитарная обрезка стимулирует рост новых побегов.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -444,19 +442,19 @@ export default function Index() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Icon name="Sprout" size={28} className="text-primary" />
-                <h4 className="text-xl font-bold">GreenCuttings</h4>
+                <Icon name="Flower" size={28} className="text-primary" />
+                <h4 className="text-xl font-bold">FloraСад</h4>
               </div>
               <p className="text-background/70">
-                Качественные черенки растений с доставкой по всей России
+                Петунии и розы премиум-качества с доставкой по России
               </p>
             </div>
             <div>
               <h5 className="font-semibold mb-4">Каталог</h5>
               <ul className="space-y-2 text-background/70">
-                <li><a href="#" className="hover:text-primary transition-colors">Декоративные</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Суккуленты</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Редкие растения</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Петунии</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Розы</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Премиум сорта</a></li>
               </ul>
             </div>
             <div>
@@ -478,7 +476,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-background/20 pt-8 text-center text-background/70">
-            <p>© 2024 GreenCuttings. Все права защищены.</p>
+            <p>© 2024 FloraСад. Все права защищены.</p>
           </div>
         </div>
       </footer>
