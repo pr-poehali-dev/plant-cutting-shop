@@ -20,22 +20,22 @@ type PlantCutting = {
 const plantCuttings: PlantCutting[] = [
   {
     id: 1,
-    name: 'Петуния Грандифлора',
-    price: 350,
-    category: 'petunia',
-    difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg',
-    description: 'Крупные яркие цветы, идеальны для кашпо и клумб',
-    careLevel: 'easy'
+    name: 'Гортензия крупнолистная',
+    price: 1290,
+    category: 'hydrangea',
+    difficulty: 'Средне',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/1145f7f2-0823-4918-bc3c-9d00a205ffa6.jpg',
+    description: 'Роскошные шапки розовых и голубых цветов',
+    careLevel: 'medium'
   },
   {
     id: 2,
-    name: 'Петуния Каскадная',
-    price: 280,
-    category: 'petunia',
-    difficulty: 'Очень легко',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg',
-    description: 'Обильное цветение, прекрасно ампельная форма',
+    name: 'Гортензия метельчатая',
+    price: 1490,
+    category: 'hydrangea',
+    difficulty: 'Легко',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/3c3d40e8-7bbf-4173-97d4-d549a27fad7b.jpg',
+    description: 'Неприхотливый морозостойкий сорт для сада',
     careLevel: 'easy'
   },
   {
@@ -50,12 +50,12 @@ const plantCuttings: PlantCutting[] = [
   },
   {
     id: 4,
-    name: 'Роза Флорибунда',
-    price: 790,
+    name: 'Роза плетистая',
+    price: 990,
     category: 'rose',
     difficulty: 'Средне',
     image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/036400a6-3a42-4097-8e0f-65e628d4a416.jpg',
-    description: 'Обильное цветение кистями, устойчива к болезням',
+    description: 'Обильное цветение, идеальна для арок и беседок',
     careLevel: 'medium'
   },
   {
@@ -70,20 +70,20 @@ const plantCuttings: PlantCutting[] = [
   },
   {
     id: 6,
-    name: 'Петуния махровая микс',
-    price: 420,
+    name: 'Гортензия древовидная',
+    price: 1190,
     category: 'premium',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg',
-    description: 'Редкая махровая форма с пышными цветами',
+    image: 'https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/3c3d40e8-7bbf-4173-97d4-d549a27fad7b.jpg',
+    description: 'Белоснежные соцветия, морозостойкий сорт',
     careLevel: 'easy'
   }
 ];
 
 const reviews = [
-  { name: 'Светлана М.', text: 'Петунии просто шикарные! Зацвели через 2 недели, балкон превратился в сад!', rating: 5 },
-  { name: 'Дмитрий В.', text: 'Розы прижились отлично. Черенки крепкие, корневая система здоровая. Рекомендую!', rating: 5 },
-  { name: 'Ольга К.', text: 'Заказала петунии каскадные - результат превзошел ожидания. Цветут без остановки!', rating: 5 }
+  { name: 'Мария В.', text: 'Гортензии потрясающие! Огромные шапки цветов украшают сад с июня по сентябрь!', rating: 5 },
+  { name: 'Александр П.', text: 'Розы прижились отлично. Крепкие саженцы, здоровая корневая система. Рекомендую!', rating: 5 },
+  { name: 'Ирина С.', text: 'Заказала гортензию метельчатую - прекрасно перезимовала и обильно зацвела!', rating: 5 }
 ];
 
 export default function Index() {
@@ -126,12 +126,12 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <Badge className="mb-4 bg-primary/20 text-primary border-primary/30">Свежие черенки петуний и роз</Badge>
+              <Badge className="mb-4 bg-primary/20 text-primary border-primary/30">Саженцы роз и гортензий премиум</Badge>
               <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Роскошный <span className="text-accent">цветущий</span> сад
+                Изысканный <span className="text-accent">романтичный</span> сад
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Качественные черенки петуний и роз с гарантией цветения весь сезон
+                Качественные саженцы роз и гортензий с гарантией цветения и приживаемости
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="text-lg">
@@ -158,8 +158,8 @@ export default function Index() {
               <div className="absolute -top-4 -right-4 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
               <div className="absolute -bottom-4 -left-4 w-72 h-72 bg-secondary/20 rounded-full blur-3xl"></div>
               <img 
-                src="https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/d1a2aeb6-44ed-483e-b100-c741f3a18ebf.jpg" 
-                alt="Петунии и розы" 
+                src="https://cdn.poehali.dev/projects/578f409e-7bf9-4c4a-ae45-29cf5a9b6cc0/files/1145f7f2-0823-4918-bc3c-9d00a205ffa6.jpg" 
+                alt="Розы и гортензии" 
                 className="relative rounded-2xl shadow-2xl w-full object-cover"
               />
             </div>
@@ -171,8 +171,8 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-secondary/20 text-secondary-foreground border-secondary/30">Каталог</Badge>
-            <h3 className="text-4xl font-bold mb-4">Наши цветы</h3>
-            <p className="text-xl text-muted-foreground">Петунии для балконов и розы для сада</p>
+            <h3 className="text-4xl font-bold mb-4">Наши саженцы</h3>
+            <p className="text-xl text-muted-foreground">Розы и гортензии для роскошного сада</p>
           </div>
 
           <Tabs value={selectedCategory} onValueChange={setSelectedCategory} className="mb-8">
@@ -181,9 +181,9 @@ export default function Index() {
                 <Icon name="LayoutGrid" size={18} />
                 Все
               </TabsTrigger>
-              <TabsTrigger value="petunia" className="flex items-center gap-2">
-                <Icon name="Flower" size={18} />
-                Петунии
+              <TabsTrigger value="hydrangea" className="flex items-center gap-2">
+                <Icon name="Flower2" size={18} />
+                Гортензии
               </TabsTrigger>
               <TabsTrigger value="rose" className="flex items-center gap-2">
                 <Icon name="Rose" size={18} />
@@ -242,8 +242,8 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-primary/20 text-primary border-primary/30">Советы</Badge>
-            <h3 className="text-4xl font-bold mb-4">Как ухаживать за петуниями и розами</h3>
-            <p className="text-xl text-muted-foreground">Простые советы для пышного цветения</p>
+            <h3 className="text-4xl font-bold mb-4">Как ухаживать за розами и гортензиями</h3>
+            <p className="text-xl text-muted-foreground">Экспертные советы для пышного цветения</p>
           </div>
 
           <div className="max-w-3xl mx-auto">
@@ -258,8 +258,9 @@ export default function Index() {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Петунии: поливайте обильно утром и вечером в жару. Розы: глубокий полив 2 раза в неделю, 
-                  избегая попадания воды на листья. Используйте теплую отстоянную воду под корень.
+                  Гортензии нуждаются в обильном поливе - почва должна быть всегда влажной, особенно в жару. 
+                  Розы поливайте глубоко 2-3 раза в неделю под корень, избегая попадания воды на листья. 
+                  Используйте отстоянную воду утром или вечером.
                 </AccordionContent>
               </AccordionItem>
 
@@ -273,8 +274,9 @@ export default function Index() {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Петунии любят яркое солнце - минимум 6 часов в день. Розы предпочитают утреннее солнце 
-                  и полутень после обеда. Для пышного цветения обеспечьте максимум света.
+                  Гортензии предпочитают полутень или утреннее солнце с защитой от полуденного зноя. 
+                  Розы любят солнечные места - минимум 6 часов прямого света в день. 
+                  В тени цветение будет менее обильным.
                 </AccordionContent>
               </AccordionItem>
 
@@ -288,8 +290,9 @@ export default function Index() {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Петунии нуждаются в еженедельной подкормке комплексным удобрением с высоким содержанием фосфора. 
-                  Розы подкармливайте каждые 2 недели органо-минеральным удобрением для обильного цветения.
+                  Гортензии подкармливайте специальными удобрениями для гортензий каждые 2 недели. 
+                  Для голубых оттенков используйте подкислители почвы. Розы нуждаются в регулярных подкормках 
+                  комплексными удобрениями весной и летом.
                 </AccordionContent>
               </AccordionItem>
 
@@ -303,8 +306,9 @@ export default function Index() {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pt-4">
-                  Петунии прищипывайте для кустистости, удаляйте увядшие цветы. Розы обрезайте отцветшие бутоны 
-                  над 5-м листом для повторного цветения. Санитарная обрезка стимулирует рост новых побегов.
+                  Гортензии обрезайте ранней весной - удаляйте старые соцветия и слабые побеги. 
+                  Розы требуют весенней формирующей обрезки и летнего удаления отцветших бутонов. 
+                  Обрезка стимулирует новое цветение и поддерживает здоровье растений.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -452,7 +456,7 @@ export default function Index() {
             <div>
               <h5 className="font-semibold mb-4">Каталог</h5>
               <ul className="space-y-2 text-background/70">
-                <li><a href="#" className="hover:text-primary transition-colors">Петунии</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Гортензии</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Розы</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Премиум сорта</a></li>
               </ul>
